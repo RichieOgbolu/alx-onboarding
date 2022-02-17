@@ -1,0 +1,8 @@
+Num_var = 0
+WHILE TRUE:
+    Num = input("Enter number")
+    While Num > 0:
+        Num_var = Num + Num_var
+        BREAK
+        print(Num_var)
+BREAK

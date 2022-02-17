@@ -1,0 +1,20 @@
+Print("How many numbers are you summing up?. If more than two, enter Y, if equal to two enter N")
+Reply = input("Enter reply")
+IF Reply == Y:
+    givenNumber = input("Enter numbers")
+    List_of_numbers = [ ]
+    append givenNumber to List_of_numbers
+    FOR num in List_of_numbers:
+        squaredList = [ ]
+        find the square of each number
+        append to squared list
+        sum(squaredList)
+        Display result
+ELSE:
+    givenNumber1 = input("Enter first number")
+    givenNumber2 = input("Enter second number")
+    square1 = find the square of givenNumber1
+    square2 = find the square of givenNumber2
+    sum = square1 + square2
+    Display result
+    
